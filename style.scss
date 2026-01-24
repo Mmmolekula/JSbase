@@ -1,0 +1,670 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.header {
+  background-color: rgb(225, 255, 143);
+  height: 900px;
+  background-repeat: no-repeat;
+  background-image: url(img/Group1.svg);
+  background-position: calc(100% + 489px) calc(0% - 334px);
+  block-size: 750px;
+}
+
+.header__text_big {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  padding-top: 196px;
+}
+
+.header__text_little {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 24px;
+}
+
+.header-button{
+  display: table;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 66px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 5px;
+  font-size: 24px;
+  margin-top: 48px;
+  color: #fff;
+  font-family: Montserrat;
+
+}
+
+.header-button:hover {
+  background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
+}
+
+.star__lower_left {
+  position: absolute;
+  display: flex;
+  margin-top: 94px;
+  right: 1600px;
+}
+
+.star__upper_left{
+  position: absolute;
+  margin-top: 69px;
+}
+
+.star__upper_right {
+position: absolute;
+margin-left: 900px;
+width: 37px;
+}
+
+.star__lower_right{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 60px;
+  width: 83px;
+}
+
+.module__game{
+  background-color: rgb(32, 32, 39);
+  position: relative;
+  height: 1500px;
+}
+
+.module__game_title{
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  padding-top: 94px;
+}
+
+.modile__description_game {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+}
+.cart__left_lower{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 60px;
+}
+
+.cart__left_upper{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
+}
+
+.cart__center_upper{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 512px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
+}
+
+.cart__center_lower{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: ls;
+  height: 512px;
+  margin-top: 40px;
+}
+
+
+
+
+.cart__right_upper{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__right_lower{
+  background-color: #fff;
+  width: 378px;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1);
+  transition: ls;
+  margin-top: 40px;
+}
+.cart__right_lower:hover{
+  background-color: #fff;
+  width: 378px;
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 551px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 40px;
+}
+
+.cart__right_upper:hover{
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  height: 473px;
+  transform: scale(1.1);
+  transition: ls;
+  margin-top: 30px;
+}
+.cart__left_upper:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart__left_lower:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+
+
+.cart__center_upper:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+
+.cart__center_lower:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+  height: 512px;
+}
+
+.cart-hugev:hover {
+  background-color: #fff;
+  width: 378px;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: ls;
+}
+.cart__number{
+  margin-left: 32px;
+  margin-top: 16px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
+  color: black;
+
+}
+.cart__drawing{
+  border-radius: 52.58px;
+  color: rgb(32, 32, 39);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  width: 108px;
+  height: 36px;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.cart__name{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.cart{
+  margin-top: 40px;
+  display: flex;
+  gap: 32px;
+     
+}
+
+.module__star_big{
+  position: absolute;
+  transform: scale(1);
+  transition: ls;
+  right: 118px;
+  top: 88px;
+}
+
+.module__star_upper{
+  position: absolute;
+  width: 32px;
+  right: 1650px;
+  top: 750px;
+}
+
+.module__star_lower{
+  top: 800px;
+  position: absolute;
+  width: 55px;
+  right: 1600px;
+}
+
+
+
+
+.product__title{
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78.02px;
+  text-align: left;
+  color: rgb(255, 255, 255);    
+
+}
+
+.button-play{
+  width: 247px;
+  height: 66px;
+  padding: 16px 28px 16px 28px;
+  border-radius: 60px 60px 60px 60px;
+  background-color: #202027;
+  border-color: #202027;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34.01px;
+  text-align: center;
+  border: 1px solid rgb(32, 32, 39);
+  margin-top: 25px;
+}
+
+.button-play:hover{
+   background-color: #fff;
+   color: #202027;
+   font-family: Montserrat;
+}
+
+.product-game__picture{
+   border-radius: 30px 30px 30px 30px;
+}
+
+.product-game_number{
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px
+}
+.product-game_arithmetic{
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px
+}
+.product-game_text{
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px
+}
+.product-game_vectoring{
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px
+}
+.product-game_stone {
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.product-game_generator{
+  background: rgb(255, 255, 255);
+  width: 1188px;
+  height: 500px;
+  border-radius: 52px;
+  margin-top: 25px
+}
+
+
+.game-img1{
+  margin-left: 590px;
+  width: 600px;
+  height: 500px;
+}
+.game-img2{
+margin-left: 0px;
+width:600px;
+height: 500px;
+}
+.product{
+  height: 3400px;
+  background-color: rgb(32, 32, 39);
+  position: relative;
+ }
+
+.product-game__field{
+  margin-top: -448px;
+  width: 399px;
+  height: 228px;
+  margin-left: 82px;
+}
+
+.product-game__arithmetic{
+  margin-top: -448px;
+  width: 544px;
+  height: 295px;
+  margin-left: 664px;
+}
+
+.product-game__text{
+  margin-top: -448px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.product-game__vectorihg{
+  margin-top: -448px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.product-game__stone{
+  margin-top: -448px;
+  width: 493px;
+  height: 344px;
+  margin-left: 64px;
+}
+
+.product-game__generator{
+  margin-top: -448px;
+  width: 515px;
+  height: 344px;
+  margin-left: 636px;
+}
+
+.product-game__title{
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.51px;
+  text-align: left;        
+}
+.product-game__description{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;        
+  margin-bottom: 10px;
+}
+
+.rules{
+  width: 1919px;
+  height: 150px;
+  top: 5770px;
+  background-color: #BCEC30;        
+}
+
+.protection{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  text-align: center;
+  padding-top: 60px;
+  color: black;
+}
+
+.product__star_big{
+  position: absolute;
+    margin-left: 1180px;
+    margin-top: -35px;
+    width: 58px;
+}
+
+.product__star_little{
+  position: absolute;
+  margin-left: 1124px;
+  margin-top: -61px;
+  width: 36px;
+}
+
+.product__button_little{
+  position: absolute;
+  margin-left: 1104px;
+  margin-top: 50px;
+}
+
+.product__button_big{
+  position: absolute;
+  margin-left: 1177px;
+  margin-top: 4px;
+}
+
+
+.footer{
+  background-color: #BDED35;
+
+  height: 150px;
+}
+.footer__description{
+  color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0px;
+text-align: center;
+padding-top: 60px;
+}
+.text{
+  font-size: 30px;
+  color: #0f0f0f;
+  margin-top: 30px
+}
+.cart-img4-1{
+  margin-left: 110px;
+  position: relative;
+  top: -240px;
+}
+.cart__numbera{
+  margin-left: 32px;
+  margin-top: -146px;
+  background: rgb(247, 247, 247);
+  width: 111px;
+  height: 36px;
+  border-radius: 52.58px;
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  line-height: 35px;
+  color: black;
+}
+.header1-tape{
+  position: relative;
+height: 90px;
+background: rgb(188, 236, 48);
+}
+.header-tape__item{
+color: rgb(32, 32, 39);
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 700;
+padding-left: 51px
+}
+
+.header-tape__game{
+  width: 36px;
+  height: 36px;
+  padding-left: 51px;
+  padding-top: 15px;
+
+}
+.header-game{
+  display: flex;
+    padding-top: 10px;
+    white-space: nowrap;
+
+}
+#tape {
+  white-space: nowrap;  /* Запрещаем перенос строк */
+  position: absolute;   /* Абсолютное позиционирование */
+}
+#tape span {
+  margin-right: 40px;   /* Отступ между элементами */
+  font-size: 20px;      /* Размер текста */
+}
+
+
+.header1-tape {
+  padding-bottom: 20px; /* "задвигаем" scrollbar за границы */
+  margin-bottom: -20px; /* компенсируем padding */
+  overflow-y: hidden;
+}
+
+
+
+.header-game {
+  
+  animation: scroll 41s linear infinite;
+}
+.header-tape {
+  overflow: hidden;
+  position: relative;
+}
+.scrol{
+  scroll-behavior: smooth
+}
+
+.header-button {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.header-button:hover {
+  background-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.button-play {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+.button-play:hover {
+  background-color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Базовые стили для всех карточек */
+.cart__left_upper, .cart__left_lower,
+.cart__center_upper, .cart__center_lower,
+.cart__right_upper, .cart__right_lower,
+.product-game {
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.98;
+}
+
+/* Эффект при наведении на карточки в верхней сетке */
+.cart__left_upper:hover, .cart__left_lower:hover,
+.cart__center_upper:hover, .cart__center_lower:hover,
+.cart__right_upper:hover, .cart__right_lower:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    opacity: 1;
+}
+@keyframes scroll {
+  0% { transform: translate(0); }
+  0% { transform: translate(-100%); }
+}
+
+
+@import 'tablet';
+@import 'mobile';
+   
