@@ -18,7 +18,7 @@ a {
 }
 
 .header {
-  background-color: rgb(225, 255, 143);
+  background-color: #e1ff8f;
   height: 900px;
   background-repeat: no-repeat;
   background-image: url(img/Group1.svg);
@@ -27,7 +27,7 @@ a {
 }
 
 .header__text_big {
-  color: rgb(32, 32, 39);
+  color: #202027;
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -36,7 +36,7 @@ a {
 }
 
 .header__text_little {
-  color: rgb(32, 32, 39);
+  color: #202027;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
@@ -46,10 +46,11 @@ a {
 
 .header-button {
   display: table;
-  background: rgb(0, 0, 0);
+  background: black;
   text-align: center;
   border: 1px solid #fff;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border-radius: 60px;
   margin-top: 18px;
   height: 66px;
@@ -73,6 +74,8 @@ a {
 
 .star__lower_left {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 94px;
   right: 1600px;
@@ -97,13 +100,14 @@ a {
 }
 
 .module__game {
-  background-color: rgb(32, 32, 39);
+  background-color: #202027;
   position: relative;
   height: 1500px;
+  padding-bottom: 30px;
 }
 
 .module__game_title {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
@@ -113,7 +117,7 @@ a {
 }
 
 .modile__description_game {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
@@ -127,9 +131,11 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 551px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .cart__left_upper {
@@ -137,7 +143,9 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 30px;
 }
@@ -147,7 +155,9 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 512px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 30px;
 }
@@ -156,7 +166,9 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   height: 512px;
   margin-top: 40px;
@@ -167,7 +179,9 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 30px;
 }
@@ -178,7 +192,9 @@ a {
   margin-top: 10px;
   border-radius: 30px;
   height: 551px;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 40px;
 }
@@ -189,7 +205,9 @@ a {
   margin-top: 10px;
   border-radius: 30px;
   height: 551px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 40px;
 }
@@ -199,7 +217,9 @@ a {
   width: 378px;
   border-radius: 30px;
   height: 473px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
   margin-top: 30px;
 }
@@ -208,7 +228,9 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
 }
 
@@ -216,7 +238,9 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
 }
 
@@ -224,7 +248,9 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
 }
 
@@ -232,7 +258,9 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
   height: 512px;
 }
@@ -241,14 +269,16 @@ a {
   background-color: #fff;
   width: 378px;
   border-radius: 30px;
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: ls;
   transition: ls;
 }
 
 .cart__number {
   margin-left: 32px;
   margin-top: 16px;
-  background: rgb(247, 247, 247);
+  background: #f7f7f7;
   width: 111px;
   height: 36px;
   border-radius: 52.58px;
@@ -261,7 +291,7 @@ a {
 
 .cart__drawing {
   border-radius: 52.58px;
-  color: rgb(32, 32, 39);
+  color: #202027;
   font-size: 16px;
   font-weight: 500;
   line-height: 35px;
@@ -272,7 +302,7 @@ a {
 }
 
 .cart__name {
-  color: rgb(32, 32, 39);
+  color: #202027;
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 700;
@@ -286,13 +316,17 @@ a {
 
 .cart {
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 32px;
 }
 
 .module__star_big {
   position: absolute;
-  transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: ls;
   transition: ls;
   right: 118px;
   top: 88px;
@@ -316,9 +350,10 @@ a {
   font-family: Montserrat;
   font-size: 64px;
   font-weight: 700;
-  line-height: 78.02px;
+  line-height: 100%;
   text-align: left;
-  color: rgb(255, 255, 255);
+  color: white;
+  margin-bottom: 70px;
 }
 
 .button-play {
@@ -334,7 +369,7 @@ a {
   font-weight: 600;
   line-height: 34.01px;
   text-align: center;
-  border: 1px solid rgb(32, 32, 39);
+  border: 1px solid #202027;
   margin-top: 25px;
 }
 
@@ -349,7 +384,7 @@ a {
 }
 
 .product-game_number {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -357,7 +392,7 @@ a {
 }
 
 .product-game_arithmetic {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -365,7 +400,7 @@ a {
 }
 
 .product-game_text {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -373,7 +408,7 @@ a {
 }
 
 .product-game_vectoring {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -381,7 +416,7 @@ a {
 }
 
 .product-game_stone {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -390,7 +425,7 @@ a {
 }
 
 .product-game_generator {
-  background: rgb(255, 255, 255);
+  background: white;
   width: 1188px;
   height: 500px;
   border-radius: 52px;
@@ -411,7 +446,7 @@ a {
 
 .product {
   height: 3400px;
-  background-color: rgb(32, 32, 39);
+  background-color: #202027;
   position: relative;
 }
 
@@ -419,7 +454,7 @@ a {
   margin-top: -448px;
   width: 399px;
   height: 228px;
-  margin-left: 82px;
+  margin-left: 60px;
 }
 
 .product-game__arithmetic {
@@ -461,8 +496,9 @@ a {
   margin-bottom: 20px;
   font-family: Montserrat;
   font-size: 48px;
+  font-style: bold;
   font-weight: 700;
-  line-height: 58.51px;
+  line-height: 100%;
   text-align: left;
 }
 
@@ -524,7 +560,7 @@ a {
 }
 
 .footer__description {
-  color: rgb(0, 0, 0);
+  color: black;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 600;
@@ -549,7 +585,7 @@ a {
 .cart__numbera {
   margin-left: 32px;
   margin-top: -146px;
-  background: rgb(247, 247, 247);
+  background: #f7f7f7;
   width: 111px;
   height: 36px;
   border-radius: 52.58px;
@@ -563,11 +599,11 @@ a {
 .header1-tape {
   position: relative;
   height: 90px;
-  background: rgb(188, 236, 48);
+  background: #bcec30;
 }
 
 .header-tape__item {
-  color: rgb(32, 32, 39);
+  color: #202027;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: 700;
@@ -578,33 +614,45 @@ a {
   width: 36px;
   height: 36px;
   padding-left: 51px;
-  padding-top: 15px;
 }
 
 .header-game {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   white-space: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #tape {
-  white-space: nowrap; /* Запрещаем перенос строк */
-  position: absolute; /* Абсолютное позиционирование */
+  white-space: nowrap;
+  /* Запрещаем перенос строк */
+  position: absolute;
+  /* Абсолютное позиционирование */
 }
 
 #tape span {
-  margin-right: 40px; /* Отступ между элементами */
-  font-size: 20px; /* Размер текста */
+  margin-right: 40px;
+  /* Отступ между элементами */
+  font-size: 20px;
+  /* Размер текста */
 }
 
 .header1-tape {
-  padding-bottom: 20px; /* "задвигаем" scrollbar за границы */
-  margin-bottom: -20px; /* компенсируем padding */
+  padding-bottom: 20px;
+  /* "задвигаем" scrollbar за границы */
+  margin-bottom: -20px;
+  /* компенсируем padding */
   overflow-y: hidden;
 }
 
 .header-game {
-  animation: scroll 41s linear infinite;
+  -webkit-animation: scroll 41s linear infinite;
+          animation: scroll 41s linear infinite;
 }
 
 .header-tape {
@@ -617,23 +665,33 @@ a {
 }
 
 .header-button {
+  -webkit-transition: background-color 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
 
 .header-button:hover {
   background-color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .button-play {
+  -webkit-transition: background-color 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
   transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease, -webkit-transform 0.2s ease, -webkit-box-shadow 0.2s ease;
 }
 
 .button-play:hover {
   background-color: #fff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Базовые стили для всех карточек */
@@ -641,9 +699,12 @@ a {
 .cart__center_upper, .cart__center_lower,
 .cart__right_upper, .cart__right_lower,
 .product-game {
+  -webkit-transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transform: translateY(0) scale(1);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(0) scale(1);
+          transform: translateY(0) scale(1);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   opacity: 0.98;
 }
 
@@ -651,40 +712,58 @@ a {
 .cart__left_upper:hover, .cart__left_lower:hover,
 .cart__center_upper:hover, .cart__center_lower:hover,
 .cart__right_upper:hover, .cart__right_lower:hover {
-  transform: translateY(-8px) scale(1.03);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(-8px) scale(1.03);
+          transform: translateY(-8px) scale(1.03);
+  -webkit-box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
   opacity: 1;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
 }
 
 @keyframes scroll {
   0% {
-    transform: translate(0);
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
-  0% {
-    transform: translate(-100%);
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 }
+
 @media (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 393px);
     padding-right: calc(50% - 393px);
   }
 }
+
 @media (max-width: 1024px) and (min-width: 768px) and (max-width: 833px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
+
 @media (max-width: 1024px) {
   .multi-bg-example {
     background-image: url(img/Vector1.svg);
-    background-color: rgb(225, 255, 143);
+    background-color: #e1ff8f;
     background-repeat: no-repeat;
     background-position: calc(90% + 150px) calc(2% - 110px);
   }
   .header__text_big {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 60px;
     line-height: 49px;
@@ -692,10 +771,11 @@ a {
   }
   .header-button {
     display: table;
-    background: rgb(0, 0, 0);
+    background: black;
     text-align: center;
     border: 1px solid #fff;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 60px;
     margin-top: 18px;
     height: 66px;
@@ -709,10 +789,11 @@ a {
   }
   .header-button:hover {
     position: static;
-    background: rgb(248, 245, 245);
+    background: #f8f5f5;
     text-align: center;
     border: 1px solid #080808;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 60px;
     margin-top: 18px;
     height: 66px;
@@ -725,7 +806,7 @@ a {
     margin-top: 48px;
   }
   .header__text_little {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-weight: 400;
     text-align: center;
@@ -738,7 +819,7 @@ a {
     color: black;
   }
   .text1 {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 45px;
     font-weight: 700;
@@ -747,7 +828,7 @@ a {
     text-align: center;
   }
   .block {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 400;
@@ -758,10 +839,11 @@ a {
   .button2 {
     position: absolute;
     font-family: Montserrat;
-    background: rgb(0, 0, 0);
+    background: black;
     text-align: center;
     border: 1px solid #fff;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 60px;
     margin-top: 18px;
     height: 55px;
@@ -878,7 +960,7 @@ a {
     height: 182px;
   }
   .product-game__title {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
@@ -889,7 +971,7 @@ a {
     width: 284px;
   }
   .product-game__description {
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -969,7 +1051,7 @@ a {
   }
   .header {
     background-image: url(img/Vector1.svg);
-    background-color: rgb(225, 255, 143);
+    background-color: #e1ff8f;
     background-repeat: no-repeat;
     background-position: calc(95% + 120px) calc(2% - 110px);
   }
@@ -977,6 +1059,7 @@ a {
     height: 3740px;
   }
 }
+
 @media (max-width: 756px) {
   .center {
     padding-left: 16px;
@@ -984,14 +1067,15 @@ a {
   }
   .header-button {
     display: table;
-    background: rgb(0, 0, 0);
+    background: black;
     text-align: center;
     border: 1px solid #fff;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 60px;
     margin-top: 18px;
     height: 66px;
-    width: 247px;
+    width: 285px;
     font-size: 16px;
     font-weight: 400;
     line-height: 50px;
@@ -1004,10 +1088,11 @@ a {
   }
   .header-button:hover {
     position: static;
-    background: rgb(248, 245, 245);
+    background: #f8f5f5;
     text-align: center;
     border: 1px solid #080808;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     border-radius: 60px;
     margin-top: 18px;
     height: 66px;
@@ -1023,24 +1108,26 @@ a {
   }
   .star__lower_left {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 94px;
   }
   .header {
     background-image: url(img/Vector1.svg);
-    background-color: rgb(225, 255, 143);
+    background-color: #e1ff8f;
     background-repeat: no-repeat;
     background-position: calc(90% + 120px) calc(2% - 110px);
   }
   .header__text_big {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     text-align: center;
   }
   .header__text_little {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -1083,34 +1170,43 @@ a {
     margin-top: 175px;
   }
   .product__title {
-    color: rgb(255, 255, 255);
+    color: white;
     font-family: Montserrat;
     font-size: 40px;
     line-height: 49px;
     letter-spacing: 0px;
     text-align: left;
     padding-top: 50px;
+    padding-left: 25px;
   }
   .module__game {
     display: none;
   }
   .product {
     height: 3740px;
+    padding-bottom: 50px;
   }
   .product__game {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .product-game_number {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
     height: 527px;
   }
   .product-game_arithmetic {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
     height: 561px;
   }
@@ -1121,25 +1217,25 @@ a {
   }
   .product-game_text {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
     height: 566px;
   }
   .product-game_vectoring {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
-    height: 528px;
+    height: 568px;
   }
   .product-game_stone {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
     height: 606px;
   }
   .product-game_generator {
     background-color: #fff;
-    width: 343px;
+    width: 340px;
     border-radius: 28px;
     height: 626px;
   }
@@ -1174,8 +1270,8 @@ a {
   .product-game__vectorihg {
     margin-left: 40px;
     margin-top: 29px;
-    width: 284px;
-    height: 182px;
+    width: 340px;
+    height: 568px;
   }
   .product-game__stone {
     margin-left: 40px;
@@ -1190,7 +1286,7 @@ a {
     height: 182px;
   }
   .product-game__title {
-    color: rgb(32, 32, 39);
+    color: #202027;
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
@@ -1201,7 +1297,7 @@ a {
     width: 284px;
   }
   .product-game__description {
-    color: rgb(0, 0, 0);
+    color: black;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 400;
@@ -1244,8 +1340,8 @@ a {
     font-family: Montserrat;
     line-height: 34.01px;
     text-align: center;
-    border: 1px solid rgb(32, 32, 39);
-    color: rgb(255, 255, 255);
+    border: 1px solid #202027;
+    color: white;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
@@ -1253,9 +1349,14 @@ a {
     text-align: center;
     margin-left: -15px;
   }
+  .footer {
+    height: 100px;
+  }
   .footer__description {
-    position: absolute;
     height: 20px;
     left: 93px;
+    padding-top: 35px;
+    font-size: 16px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */
