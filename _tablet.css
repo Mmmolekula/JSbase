@@ -1,0 +1,333 @@
+@media (max-width: 1024px) {
+    .center{
+    padding-left:  calc(50% - 393px);
+    padding-right:  calc(50% - 393px);
+    }  
+    
+
+@media(min-width: 768px) and  (max-width: 833px) {
+    .center{
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+   
+  
+
+}
+.multi-bg-example{
+    background-image: url(img/Vector1.svg);
+    background-color: rgb(225, 255, 143);
+    background-repeat: no-repeat;
+    background-position: calc(90% + 150px) calc(2% - 110px);
+}
+
+.header__text_big{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 60px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.header-button{
+  display: table;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 66px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 270px;
+  font-size: 24px;
+  margin-top: 48px;
+
+
+}     
+.header-button:hover{
+  position: static;
+  background: rgb(248, 245, 245);
+  text-align: center;
+  border: 1px solid #080808;
+  box-sizing: border-box;
+  border-radius: 60px;
+  margin-top: 18px;
+  height: 66px;
+  width: 247px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 270px;
+  font-size: 24px;
+  margin-top: 48px;
+
+
+
+}   
+
+.header__text_little{
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-weight: 400;
+    text-align: center;
+    font-size:  32px;
+}
+.multi-button:hover {
+  background: white;
+  text-align: center;
+  border: 1px solid #202027;
+  color: black;
+}
+.text1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-top: 196px;
+    text-align: center;
+}
+.block {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 24px;
+    text-align: center;
+}
+.button2 {
+    position: absolute;
+    font-family: Montserrat;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 60px;
+    margin-top: 18px;
+    height: 55px;
+    width: 247px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 5px;
+    font-family: Montserrat;
+    font-size: 24px;
+    margin-left: 32px;
+    margin-top: 48px;
+    display: inline-block;
+    color: #fff;
+    right: 260px;
+  }
+  
+  .button2:hover {
+    background: white;
+    text-align: center;
+    border: 1px solid #202027;
+    color: black;
+  }
+  .star-sirius{
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    right: 560px;
+}
+.star-polaris{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 620px;
+  margin-left: 00px;
+
+}
+.star-antares{
+  position: absolute;
+  width: 39px;
+  height: 41px;
+  right: 100px;
+  margin-top: 175px;
+}
+.star-arcturus{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 190px;
+    margin-top: 150px;
+}
+.star-rigel {
+  display: none;
+}
+.star__lower_left{
+  position: absolute;
+  width: 57px;
+  height:57px;
+  right: 620px;
+  margin-left: 0px;
+  margin-right: 100px;
+}
+
+
+
+.star__upper_left {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 650px;
+}
+.module__game {
+  display: none;
+}
+.product-game__field{
+  margin-left: 40px;
+  margin-top: 29px;
+  width: 284px;
+  height: 182px;
+}
+
+
+
+
+.product-game__picture{
+margin-left: -1px;
+width: 343px;
+height: 283px;
+}
+.game-img2 {
+margin-left: -1px;
+width: 343px;
+height: 283px;
+}
+.product-game__arithmetic{
+margin-left: 40px;
+  margin-top: 29px;
+  width: 284px;
+  height: 182px;
+}
+.product-game__text{
+margin-left: 40px;
+  margin-top: 29px;
+  width: 284px;
+  height: 182px;
+}
+.product-game__vectorihg{
+margin-left: 40px;
+margin-top: 29px;
+width: 284px;
+height: 182px;}
+
+.product-game__stone{
+margin-left: 40px;
+margin-top: 29px;
+width: 284px;
+height: 182px;}
+.product-game__generator{
+margin-left: 40px;
+margin-top: 29px;
+width: 284px;
+height: 182px;}
+.product-game__title{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 10px;
+  width: 284px;
+}
+.product-game__description {
+color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+width: 275px;
+}
+.game-img2 {
+  margin-left: -1px;
+  width: 343px;
+  height: 283px;
+}
+.product-game_number {
+  background-color: #fff;
+  width: 343px;
+  border-radius: 28px;
+  height: 527px;
+  }
+
+  .product-game_arithmetic{
+  background-color: #fff;
+  width: 343px;
+  border-radius: 28px;
+  height: 561px;
+  }
+  .game-img1 {
+    margin-left: -1px;
+    width: 343px;
+    height: 283px;
+}
+  .product-game_text{
+    background-color: #fff;
+    width: 343px;
+    border-radius: 28px;
+    height: 566px;
+    }
+
+  .product-game_vectoring{
+  background-color: #fff;
+  width: 343px;
+  border-radius: 28px;
+  height: 528px;
+  }
+  .product-game_stone {
+    background-color: #fff;
+    width: 343px;
+    border-radius: 28px;
+    height: 606px;
+    }
+    .product-game_generator {
+      background-color: #fff;
+      width: 343px;
+      border-radius: 28px;
+      height: 626px;
+      }
+      .product__button_big{
+        display: none;
+      }
+      .product__star_big{
+      display: none;
+      }
+      .product__star_little{
+        display: none;
+      }
+      .product__button_little {
+        display: none;
+      }
+      .star__upper_right {
+        position: absolute;
+        width: 48px;
+       right: 100px;
+      }
+      .star__lower_right{
+        position: absolute;
+        width: 89px;
+        height: 71px;
+       right: 50px;
+      }
+      .header{
+        background-image: url(img/Vector1.svg);
+        background-color: rgb(225, 255, 143);
+        background-repeat: no-repeat;
+        background-position: calc(95% + 120px) calc(2% - 110px);
+      }
+      .product{
+        height: 3740px;
+    }
+}

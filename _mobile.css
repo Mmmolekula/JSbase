@@ -1,0 +1,138 @@
+@media (max-width: 756px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .mini-game{
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 49px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+.multi-button{
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  width: 78px;
+  height: 23px;
+ 
+}
+
+    
+.header__text_big{
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+}
+
+.header__text_little{
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.header{
+  background-image: url(img/Vector1.svg);
+  background-color: rgb(225, 255, 143);
+  background-repeat: no-repeat;
+  background-position: calc(90% + 120px) calc(2% - 110px);
+
+}
+
+  .title-game {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .title-game1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 284.93px;
+    margin-bottom: 10px;
+  }
+  .title-game1 {
+    color: rgb(32, 32, 39);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 284.93px;
+    margin-bottom: 10px;
+  }
+  
+  .describe {
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+width: 275px;
+  }
+  .describe1 {
+    color: rgb(0, 0, 0);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+width: 275px;
+  }
+  .play {
+    width: 285px;
+    height: 55px;
+    padding: 16px 28px 16px 28px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #202027;
+    border-color: #202027;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34.01px;
+    text-align: center;
+  }
+  .pole {
+    margin-left: 2px;
+    margin-top: 40px;
+  }
+  
+  .pole1 {
+    margin-left: 2px;
+    margin-top: 40px;
+  }
+  
+  .pole3 {
+  margin-left: 2px;
+  margin-top: 10px;
+  }
+
+  .pole4 {
+  margin-left: 2px;
+  margin-top: 10px;
+  }
+  
+  
+}
