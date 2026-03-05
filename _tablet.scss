@@ -4,14 +4,6 @@
     padding-right:  calc(50% - 393px);
     }  
     
-
-@media(min-width: 768px) and  (max-width: 833px) {
-    .center{
-    padding-left: 24px;
-    padding-right: 24px;
-    }
- 
-}
 .multi-bg-example{
     background-image: url(img/Vector1.svg);
     background-color: rgb(225, 255, 143);
@@ -40,7 +32,6 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 60px;
-  margin-left: 270px;
   font-size: 24px;
   margin-top: 48px;
 
@@ -169,7 +160,6 @@
 }
 
 
-
 .star__upper_left {
   position: absolute;
   width: 35px;
@@ -185,8 +175,6 @@
   width: 284px;
   height: 182px;
 }
-
-
 
 
 .product-game__picture{
@@ -324,6 +312,10 @@ width: 275px;
         background-color: rgb(225, 255, 143);
         background-repeat: no-repeat;
         background-position: calc(95% + 120px) calc(2% - 110px);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
       }
       .product{
         height: 3740px;

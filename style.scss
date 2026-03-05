@@ -675,12 +675,7 @@ html {
     padding-right: calc(50% - 393px);
   }
 }
-@media (max-width: 1024px) and (min-width: 768px) and (max-width: 833px) {
-  .center {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-}
+
 @media (max-width: 1024px) {
   .multi-bg-example {
     background-image: url(img/Vector1.svg);
@@ -707,7 +702,6 @@ html {
     width: 247px;
     font-weight: 400;
     line-height: 70px;
-    margin-left: 270px;
     font-size: 24px;
     margin-top: 48px;
   }
@@ -723,7 +717,6 @@ html {
     width: 247px;
     font-weight: 400;
     line-height: 70px;
-    margin-left: 270px;
     font-size: 24px;
     margin-top: 48px;
   }
@@ -975,6 +968,10 @@ html {
     background-color: rgb(225, 255, 143);
     background-repeat: no-repeat;
     background-position: calc(95% + 120px) calc(2% - 110px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
   }
   .product {
     height: 3740px;
@@ -987,10 +984,7 @@ html {
   }
 }
 @media (max-width: 756px) {
-  .center {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
   .header-button {
     display: table;
     background: rgb(0, 0, 0);
@@ -1004,7 +998,6 @@ html {
     font-size: 16px;
     font-weight: 400;
     line-height: 65px;
-    margin-left: 50px;
     margin-top: 48px;
     display: inline-block;
     color: #fff;
@@ -1097,7 +1090,6 @@ html {
     letter-spacing: 0px;
     text-align: left;
     padding-top: 50px;
-    padding-left: 25px;
   }
   .module__game {
     display: none;

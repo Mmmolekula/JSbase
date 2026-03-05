@@ -1,8 +1,9 @@
 @media (max-width: 756px) {
-    .center {
-        padding-left: 16px;
-        padding-right: 16px;
-      }
+
+.center{
+  padding-left: 16px;
+  padding-right: 16px;
+}
 
 .header-button{
   display: table;
@@ -17,13 +18,12 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 65px;
-  margin-left: 50px;
   margin-top: 48px;
   display: inline-block;
   color: #fff;
   font-family: Montserrat;
-
 }     
+
 .header-button:hover{
   position: static;
   background: rgb(248, 245, 245);
@@ -108,14 +108,14 @@
   margin-top: 175px;
 }
 
-  .product__title{
-    color: rgb(255, 255, 255);
-font-family: Montserrat;
-font-size: 40px;
-line-height: 49px;
-letter-spacing: 0px;
-text-align: left;
-padding-top: 50px;
+.product__title{
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-top: 50px;
   }
 
 .module__game {
